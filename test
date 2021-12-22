@@ -10,7 +10,8 @@
 			<image></image>
 			
 			<h1><img src="images/なにちゃん_仮アイコン.png" alt="なにちゃん" width="45" height="45">なにちゃん</h1>
-			<hr style="color: red">
+			<hr style="color: red"
+			test>
 		</div>
 	</body>
 </html>

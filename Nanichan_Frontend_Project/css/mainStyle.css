@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+.centerAlign{
+    text-align: center;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.centerAlign h1{
+	background: greenyellow;
+}
+
+.createThread{
+	background:beige;
+}
+
+/*　スレッド作成ボタン　*/
+.sButton{
+	padding-left: 1%;
+}
+
+.Blue{
+    color: deepskyblue;
+}
+
+	
+
+
+
+
+

@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+/*赤線*/
+.redLine hr{
+	border: none;
+  	padding-bottom: 0.5vm;
+	margin-top: 0;
+  	border-top: 1px solid red;
+}
+
+
+.headerBox img,a,h1 {
+	margin: 0;
+	padding: 0;
+	margin-top: 0;
+	margin-bottom 0: 
+}
+
+
+

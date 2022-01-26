@@ -22,6 +22,7 @@
 	<!--メインコンテンツ-->
 		<div class="centerAlign">
 			<h1>カテゴリ一覧</h1>
+			<div style="background: beige;">
 		<?php
 			require("function/API_Function.php");
 		
@@ -31,31 +32,14 @@
 		//スレ名表示
 			$tmp = $resp -> data;
 			foreach($tmp as $index) {
-				echo "<li>";
-				$msg = '<a href="./ThreadList.php?categoryid=' . $index -> category_id . '&categoryname=' . $index -> category_name . '">' . $index -> category_name . '</a></li>';
+				$msg = '<a href="./ThreadList.php?categoryid=' . $index -> category_id . '&categoryname=' . $index -> category_name . '">' . $index -> category_name . '</a><br>';
 				echo $msg;
 			}
 		?>
+				</div>
 		
 		<!--　　-->
-			
-			
-		<!--　　-->
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
+
 		</div>
 	</body>
 </html>

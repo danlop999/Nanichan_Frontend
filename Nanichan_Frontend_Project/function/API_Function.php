@@ -26,7 +26,7 @@ function GET_Category(){
 	);
 	curl_setopt_array($curl, $options);
 	$response = curl_exec($curl);
-	$result = json_decode(json_decode($response, true));
+	$result = json_decode($response, true);
 	//var_dump($response);
 	//var_dump($result);
 	return $result;
@@ -56,7 +56,7 @@ function GET_ThreadInfo_Id(int $id){
 	);
 	curl_setopt_array($curl, $options);
 	$response = curl_exec($curl);
-	$result = json_decode(json_decode($response, true));
+	$result = json_decode($response, true);
 	//var_dump($response);
 	//var_dump($result);
 	return $result;
@@ -86,7 +86,7 @@ function GET_ThreadInfo_Name(string $name){
 	);
 	curl_setopt_array($curl, $options);
 	$response = curl_exec($curl);
-	$result = json_decode(json_decode($response, true));
+	$result = json_decode($response, true);
 	//var_dump($response);
 	//var_dump($result);
 	return $result;
@@ -116,7 +116,7 @@ function GET_ThreadInfo_Category(int $id){
 	);
 	curl_setopt_array($curl, $options);
 	$response = curl_exec($curl);
-	$result = json_decode(json_decode($response, true));
+	$result = json_decode($response, true);
 	//var_dump($response);
 	//var_dump($result);
 	return $result;
@@ -146,7 +146,7 @@ function GET_Thread(int $id){
 	);
 	curl_setopt_array($curl, $options);
 	$response = curl_exec($curl);
-	$result = json_decode(json_decode($response, true));
+	$result = json_decode($response, true);
 	//var_dump($response);
 	//var_dump($result);
 	return $result;
@@ -182,7 +182,7 @@ function POST_Category(string $category_name){
 	);
 	curl_setopt_array($curl, $options);
 	$response = curl_exec($curl);
-	$result = json_decode(json_decode($response, true));
+	$result = json_decode($response, true);
 	//var_dump($response);
 	//var_dump($result);
 	return $result;
@@ -219,7 +219,7 @@ function POST_Thread(int $category_id,string $thread_name,string $API_Token){
 	);
 	curl_setopt_array($curl, $options);
 	$response = curl_exec($curl);
-	$result = json_decode(json_decode($response, true));
+	$result = json_decode($response, true);
 	//var_dump($response);
 	//var_dump($result);
 	return $result;
@@ -256,7 +256,7 @@ function POST_Comment(int $thread_id,string $comment,string $API_Token){
 	);
 	curl_setopt_array($curl, $options);
 	$response = curl_exec($curl);
-	$result = json_decode(json_decode($response, true));
+	$result = json_decode($response, true);
 	//var_dump($response);
 	//var_dump($result);
 	return $result;
@@ -294,7 +294,7 @@ function DELETE_Comment(int $thread_id,int  $comment_id,string $API_Token){
 	);
 	curl_setopt_array($curl, $options);
 	$response = curl_exec($curl);
-	$result = json_decode(json_decode($response, true));
+	$result = json_decode($response, true);
 	//var_dump($response);
 	//var_dump($result);
 	return $result;
@@ -330,7 +330,7 @@ function DELETE_Thread(int $thread_id,string $API_Token){
 	);
 	curl_setopt_array($curl, $options);
 	$response = curl_exec($curl);
-	$result = json_decode(json_decode($response, true));
+	$result = json_decode($response, true);
 	//var_dump($response);
 	//var_dump($result);
 	return $result;
